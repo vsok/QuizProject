@@ -63,9 +63,7 @@ export default class App extends React.Component {
 	handleStatusChange = (status) => {
     	if(status) {
       		this.score += 1;
-    	}
-
-    	if(status == false) {
+    	} else {
       		this.score -= 1;
     	}
 	}
